@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BF1VMwareAPI", "BF1VMwareAPI\BF1VMwareAPI.csproj", "{2290E0E3-EBD9-400C-9D2F-FD7137184CD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernWpf", "ModernWpf\ModernWpf.csproj", "{14C25A55-0308-4046-A5F4-2DD2ABD5A71B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{FDC488B6-DBC8-49C1-94CC-89B50E9F9718}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoadDebug", "LoadDebug\LoadDebug.vcxproj", "{8B4AFB0D-042A-41BF-B4B8-76C78E39AC90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BF1DevConsole", "BF1DevConsole\BF1DevConsole.csproj", "{CF21AC4E-2FBE-4E77-B670-4D8361EF9323}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dev", "dev", "{E74FCDFD-A278-41BD-9749-D61DAF40720B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2290E0E3-EBD9-400C-9D2F-FD7137184CD2}.Debug|x64.ActiveCfg = Debug|x64
+		{2290E0E3-EBD9-400C-9D2F-FD7137184CD2}.Debug|x64.Build.0 = Debug|x64
+		{2290E0E3-EBD9-400C-9D2F-FD7137184CD2}.Release|x64.ActiveCfg = Release|x64
+		{2290E0E3-EBD9-400C-9D2F-FD7137184CD2}.Release|x64.Build.0 = Release|x64
+		{14C25A55-0308-4046-A5F4-2DD2ABD5A71B}.Debug|x64.ActiveCfg = Debug|x64
+		{14C25A55-0308-4046-A5F4-2DD2ABD5A71B}.Debug|x64.Build.0 = Debug|x64
+		{14C25A55-0308-4046-A5F4-2DD2ABD5A71B}.Release|x64.ActiveCfg = Release|x64
+		{14C25A55-0308-4046-A5F4-2DD2ABD5A71B}.Release|x64.Build.0 = Release|x64
+		{8B4AFB0D-042A-41BF-B4B8-76C78E39AC90}.Debug|x64.ActiveCfg = Release|x64
+		{8B4AFB0D-042A-41BF-B4B8-76C78E39AC90}.Release|x64.ActiveCfg = Release|x64
+		{CF21AC4E-2FBE-4E77-B670-4D8361EF9323}.Debug|x64.ActiveCfg = Debug|x64
+		{CF21AC4E-2FBE-4E77-B670-4D8361EF9323}.Debug|x64.Build.0 = Debug|x64
+		{CF21AC4E-2FBE-4E77-B670-4D8361EF9323}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B4AFB0D-042A-41BF-B4B8-76C78E39AC90} = {E74FCDFD-A278-41BD-9749-D61DAF40720B}
+		{CF21AC4E-2FBE-4E77-B670-4D8361EF9323} = {E74FCDFD-A278-41BD-9749-D61DAF40720B}
+	EndGlobalSection
+EndGlobal
